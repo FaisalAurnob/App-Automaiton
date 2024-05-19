@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-20T02:05:09 BDT" name="Default suite" finished-at="2024-05-20T02:06:55 BDT" duration-ms="105438">
+    <groups>
+    </groups>
+    <test started-at="2024-05-20T02:05:09 BDT" name="Default test" finished-at="2024-05-20T02:06:55 BDT" duration-ms="105438">
+      <class name="TestCases.TestScenario02">
+        <test-method is-config="true" signature="setupCapability()[pri:0, instance:TestCases.TestScenario02@740fb309]" started-at="2024-05-20T02:05:00 BDT" name="setupCapability" finished-at="2024-05-20T02:05:09 BDT" duration-ms="9794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="OrderReplace()[pri:0, instance:TestCases.TestScenario02@740fb309]" started-at="2024-05-20T02:05:09 BDT" name="OrderReplace" description="Scenario 02 : Given: Mike go to shopping cart by clicking top cart icon
+When: Mike click checkout button from shopping cart page
+And: Mike select checkout as guest from shopping cart page
+Then: Mike input all the details in checkout billing details page and click continue
+And: Mike select &quot;Next Day Air&quot; as shipping method and click continue
+And: Mike select &quot;Check/Money Order&quot; as payment method and click continue
+And: Mike click next button on payment information page
+Then: Mike click confirm button to place the order
+And: Verify order place successfully with popup message &quot;Your order has been successfully processed!&quot;" finished-at="2024-05-20T02:06:55 BDT" duration-ms="105307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderReplace -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:TestCases.TestScenario02@740fb309]" started-at="2024-05-20T02:06:55 BDT" name="quitDriver" finished-at="2024-05-20T02:06:55 BDT" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- TestCases.TestScenario02 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
