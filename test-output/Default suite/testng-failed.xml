@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.TestScenario02">
+      <class name="TestCases.TestScenario01">
         <methods>
           <include name="setupCapability"/>
-          <include name="OrderReplace"/>
           <include name="quitDriver"/>
+          <include name="addcarttwo"/>
         </methods>
-      </class> <!-- TestCases.TestScenario02 -->
+      </class> <!-- TestCases.TestScenario01 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
