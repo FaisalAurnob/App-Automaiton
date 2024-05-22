@@ -16,8 +16,10 @@ public class AddToCart extends Methods {
     public void FirstExecution() {
         click(AcceptButton);
         click(Categories);
+        takeScreenshot("CategoryList");
         click(Electronics);
         wait(ElectronicsList); 
+        takeScreenshot("MasterBedroomPage");
         scrollAndClick(MatressBedroom);
         wait(MatressBedroomList);
         scrollAndClick(MatressQuantity);
