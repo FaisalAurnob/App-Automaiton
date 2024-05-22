@@ -1,6 +1,21 @@
 # Mobile App Automation
 
-This project is for end-to-end testing of the [Download APK File](https://drive.google.com/file/d/1nUfd53CBXU2eYFbIkkWvPlmfXjN136bu/view?usp=drive_link)  Mobile application using the Page Object Model (POM) pattern. The following testing procedure will cover a wide range of functionalities, including Add Item to Cart,Proceed to Checkout,Choose Guest Checkout, Enter Shipping Information, Proceed to Payment,Enter Payment Details,Place an order and verify the order confirmation.
+This project aims to automate the testing of a mobile application using the Page Object Model (POM) pattern. The testing procedure will encompass various functionalities to ensure comprehensive coverage and validation of the app's key features. 
+
+## Languages and Frameworks
+The project uses the following:
+
+1.[Java 21](https://openjdk.java.net/projects/jdk/21/)Java 21 as the programming language.
+
+2.[Selenium WebDriver](https://www.selenium.dev/)r for browser automation.
+
+3.[Maven](https://maven.apache.org/) as the build tool and dependency management system.
+
+4.[TestNG](https://testng.org/doc/) as the testing framework.
+
+5.[Eclipse IDE](https://www.eclipse.org/) for development and testing.-
+
+6.[Allure Report](https://allurereport.org/) for test reporting
 
 
 
