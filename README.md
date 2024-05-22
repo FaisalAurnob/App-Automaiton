@@ -37,3 +37,6 @@ following scenarios, which will be replicated
 7. click next button on payment information page
 8. click confirm button to place the order
 9. order place successfully with popup message "Your order has been successfully processed!"
+
+## Video
+https://drive.google.com/file/d/1eU2iULt7KGwTmOvW84bv0BvW3l9-O-R2/view?usp=sharing
